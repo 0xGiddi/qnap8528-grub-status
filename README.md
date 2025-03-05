@@ -25,6 +25,8 @@ The makefile by default targets and configures GRUB for *x86_64* with EFI suppor
 
 Once the build process finishes, the module should be in the projects root directory with the name `qnap8528led.mod`.
 
+Before building the module, the following packages should be installed `python3 gettext autopoint pkg-config build-essential autoconf automake bison flex`
+
 ### Building using distro/other sources
 1. Clone this repository
 2. Download your grub sources, extract to a directory named `grub2-2.xx` (`xx` is the minor version number) in the projects root directory. On debian based systems, this can be done with `apt source grub2`.
