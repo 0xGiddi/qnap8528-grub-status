@@ -1,3 +1,14 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+/*
+ * GRUB 2 module to set the QNAP status LED via the IT8528 EC.
+ *
+ * This module would set the status LED to a green-red alternating
+ * pattern.
+ *
+ * Version history:
+ *	v1.0: Initial version.
+ */
+
 #include <grub/dl.h>
 #include <grub/time.h>
 #include <grub/cpu/io.h>
